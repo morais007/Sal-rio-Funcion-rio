@@ -16,7 +16,7 @@ public class Funcionario {
 	}
 	
 	public double aumentarSalario() {
-		return salarioBruto * porcentagem + salarioLiquido();
+		return salarioBruto * porcentagem / 100.0 + salarioLiquido();
 		
 	}
 
